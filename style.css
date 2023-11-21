@@ -51,15 +51,16 @@ main {
     cursor: pointer;
 }
 
-.btn:hover{
-    bord: 2px 2px #333;
+.btn:hover {
+    box-shadow: 1px -1px 5px 11px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 1px -1px 5px 11px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 1px -1px 5px 11px rgba(0, 0, 0, 0.1);
 }
 
 .btn-container button:nth-child(4),
 button:nth-child(8),
 button:nth-child(12),
-button:nth-child(16)
-{
+button:nth-child(16) {
     color: rgb(183, 0, 183);
     background-color: rgb(255, 228, 255);
 }
